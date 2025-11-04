@@ -1,6 +1,8 @@
 import './App.css'
 import Header from './components/header';
 import Main from './components/main';
+import bgLogoDc from './assets/img/dc-logo-bg.png'
+
 
 
 
@@ -15,7 +17,9 @@ export default function App() {
       <Main />
 
       <footer>
+
         <div className='d-flex pt-4'>
+
 
           <div class="list">
 
@@ -72,7 +76,13 @@ export default function App() {
 
           </div>
 
+          <span><img src={bgLogoDc} alt="" /> </span>
+
         </div>
+
+
+
+
 
       </footer>
 

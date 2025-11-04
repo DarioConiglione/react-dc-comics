@@ -12,10 +12,16 @@
 
 }
 
+main {
+    position: relative;
+    z-index: 1;
+}
+
 footer div:first-child {
 
     background-image: url(./assets/img/footer-bg.jpg);
     padding-left: 6rem;
+    position: relative;
 
 }
 
@@ -26,5 +32,17 @@ footer div:first-child {
     ul {
 
         list-style: none;
+    }
+}
+
+span {
+    position: relative;
+
+    img {
+        position: absolute;
+        left: 17rem;
+        top: -7rem;
+        width: 515px;
+
     }
 }
