@@ -11,3 +11,20 @@
 
 
 }
+
+footer div:first-child {
+
+    background-image: url(./assets/img/footer-bg.jpg);
+    padding-left: 6rem;
+
+}
+
+.list {
+    color: white;
+
+
+    ul {
+
+        list-style: none;
+    }
+}

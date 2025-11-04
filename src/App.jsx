@@ -1,10 +1,7 @@
 import './App.css'
 import Header from './components/header';
-import DigitalCom from './assets/img/buy-comics-digital-comics.png'
-import DcMerchan from './assets/img/buy-comics-merchandise.png'
-import Subscrip from './assets/img/buy-comics-subscriptions.png'
-import ShopLoc from './assets/img/buy-comics-shop-locator.png'
-import DcPowVisa from './assets/img/buy-dc-power-visa.svg'
+import Main from './components/main';
+
 
 
 export default function App() {
@@ -15,46 +12,69 @@ export default function App() {
 
       <Header />
 
-      <main>
-        <div className='bg-black'>
-          Content goes here!
+      <Main />
+
+      <footer>
+        <div className='d-flex pt-4'>
+
+          <div class="list">
+
+            <ul><h4>DC COMICS</h4>
+
+              <li>Characters</li>
+              <li>Comics</li>
+              <li>Movies</li>
+              <li>TV</li>
+              <li>Games</li>
+              <li>Videos</li>
+              <li>News</li>
+            </ul>
+            <ul><h4>SHOP</h4>
+
+              <li>Shop DC</li>
+              <li>Shop DC Collectibles</li>
+
+            </ul>
+
+          </div>
+
+          <div class="list">
+
+            <ul><h4>DC </h4>
+
+              <li>Characters</li>
+              <li>Comics</li>
+              <li>Movies</li>
+              <li>TV</li>
+              <li>Games</li>
+              <li>Videos</li>
+              <li>News</li>
+              <li>TV</li>
+              <li>Games</li>
+              <li>Videos</li>
+              <li>News</li>
+            </ul>
+
+          </div>
+
+          <div class="list">
+
+            <ul><h4>SITE</h4>
+
+              <li>Characters</li>
+              <li>Comics</li>
+              <li>Movies</li>
+              <li>TV</li>
+              <li>Games</li>
+              <li>Videos</li>
+              <li>News</li>
+            </ul>
+
+          </div>
+
         </div>
 
-        <div className='bg-blue d-flex justify-content-center align-items-center py-5'>
-
-          <div className='m-3'>
-            <img width={40} src={DigitalCom} alt="" />
-            <span className='m-3'>Digital Comics</span>
-          </div>
-
-          <div className='m-3'>
-            <img width={40} src={DcMerchan} alt="" />
-            <span className='m-3'>DC Merchandise</span>
-          </div>
-
-          <div className='m-3'>
-            <img width={40} src={Subscrip} alt="" />
-            <span className='m-3'>Subscription</span>
-          </div>
-
-          <div className='m-3'>
-            <img width={30} src={ShopLoc} alt="" />
-            <span className='m-3'>Comic Shop Location</span>
-          </div>
-
-          <div className='m-3'>
-            <img width={40} src={DcPowVisa} alt="" />
-            <span className='m-3'>DC Power Visa</span>
-          </div>
-
-
-        </div>
-
-
-
-
-      </main>
-      <footer></footer>
+      </footer>
 
     </>
   )
