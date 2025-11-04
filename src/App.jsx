@@ -1,7 +1,5 @@
-import { useState } from 'react'
 import './App.css'
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import Header from './components/header';
 
 
 export default function App() {
@@ -12,7 +10,22 @@ export default function App() {
 
       <Header />
 
-      <main></main>
+      <main>
+        <div className='bg-black'>
+          Content goes here!
+        </div>
+
+        <div className='container'>
+          <ul class="list-group list-group-horizontal">
+            <li class="list-group-item">An item</li>
+            <li class="list-group-item">A second item</li>
+            <li class="list-group-item">A third item</li>
+          </ul>
+
+        </div>
+
+
+      </main>
       <footer></footer>
 
     </>
