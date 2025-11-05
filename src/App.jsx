@@ -6,6 +6,7 @@ import Footer from './components/footer';
 
 
 
+
 export default function App() {
 
 
@@ -15,7 +16,6 @@ export default function App() {
       <Header />
 
       <Main />
-
 
 
       <Footer />

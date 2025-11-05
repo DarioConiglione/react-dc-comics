@@ -4,13 +4,25 @@ import Subscrip from '../assets/img/buy-comics-subscriptions.png'
 import ShopLoc from '../assets/img/buy-comics-shop-locator.png'
 import DcPowVisa from '../assets/img/buy-dc-power-visa.svg'
 
+import comics from '../comics';
+
 export default function Main() {
 
     return (
 
         <main>
             <div className='bg-black'>
-                Content goes here!
+                <div className='container'>
+                    <div className='row row-col-6'>
+                        <div className='col'>
+                            <div className='card'>
+                                <img className='image-top' src="" alt="" />
+                                <div className='card-body'></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
             </div>
 
             <div className='bg-blue d-flex justify-content-center align-items-center py-5'>
