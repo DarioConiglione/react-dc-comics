@@ -4,6 +4,8 @@ import Subscrip from '../assets/img/buy-comics-subscriptions.png'
 import ShopLoc from '../assets/img/buy-comics-shop-locator.png'
 import DcPowVisa from '../assets/img/buy-dc-power-visa.svg'
 
+
+
 const comics = [
     {
         id: 1,
@@ -166,13 +168,14 @@ export default function Main() {
         <main>
             <div className='bg-black'>
                 <div className='container'>
-                    <div className='row row-col-1'>
+
+                    <div className=' row row-cols-6 g-3 px-5'>
 
                         {
                             comics.map(comic => (
 
                                 <div className='col' key={comic.id}>
-                                    <div className='card'>
+                                    <div className='card text-bg-dark'>
                                         <img className='image-top' src={comic.thumb} alt="" />
                                         <div className='card-body'>
                                             <p>{comic.series}</p>
@@ -184,8 +187,8 @@ export default function Main() {
                         }
 
                     </div>
-
                 </div>
+
             </div>
 
             <div className='bg-blue d-flex justify-content-center align-items-center py-5'>

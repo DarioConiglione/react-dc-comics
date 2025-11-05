@@ -21,7 +21,7 @@ export default function Header() {
 
             <nav>
 
-                <div className='container d-flex justify-content-around align-items-center py-3'>
+                <div className='container d-flex justify-content-around align-items-center py-4'>
 
 
                     <img src={dcLogo} alt="dcLogo" />
