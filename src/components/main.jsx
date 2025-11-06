@@ -6,6 +6,7 @@ import DcPowVisa from '../assets/img/buy-dc-power-visa.svg'
 
 
 
+
 const comics = [
     {
         id: 1,
@@ -166,6 +167,12 @@ export default function Main() {
     return (
 
         <main>
+
+            <div className='jumbo'>
+
+            </div>
+
+
             <div className='bg-black'>
                 <div className='container'>
 
