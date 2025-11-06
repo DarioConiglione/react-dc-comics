@@ -198,7 +198,16 @@ export default function Main() {
                         }
 
                     </div>
+
+
+                    <div className="d-flex justify-content-center pb-5">
+                        <button className="btn btn-primary">LOAD MORE</button>
+                    </div>
+
+
                 </div>
+
+
 
             </div>
 
