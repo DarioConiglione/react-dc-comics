@@ -4,6 +4,8 @@ import Subscrip from '../assets/img/buy-comics-subscriptions.png'
 import ShopLoc from '../assets/img/buy-comics-shop-locator.png'
 import DcPowVisa from '../assets/img/buy-dc-power-visa.svg'
 
+import Cards from '../components/cards';
+
 
 
 
@@ -180,24 +182,7 @@ export default function Main() {
             <div className='bg-black'>
                 <div className='container'>
 
-                    <div className=' row row-cols-6 g-3 px-5'>
-
-                        {
-                            comics.map(comic => (
-
-                                <div className='col' key={comic.id}>
-                                    <div className='card text-bg-dark'>
-                                        <img className='image-top' src={comic.thumb} alt="" />
-                                        <div className='card-body'>
-                                            <p>{comic.series}</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            ))
-
-                        }
-
-                    </div>
+                    <Cards />
 
 
                     <div className="d-flex justify-content-center pb-5">

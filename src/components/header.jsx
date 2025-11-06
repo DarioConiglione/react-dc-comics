@@ -26,11 +26,15 @@ export default function Header() {
 
                     <img src={dcLogo} alt="dcLogo" />
 
-                    {
-                        menu.map(item => (
-                            <a className={`nav-link ${item.is_active ? 'current' : ''}`} href={item.link}>{item.text}</a>
-                        ))
-                    }
+                    <div className='d-flex gap-4'>
+
+                        {
+                            menu.map(item => (
+                                <a className={`nav-link ${item.is_active ? 'current' : ''}`} href={item.link}>{item.text}</a>
+                            ))
+                        }
+
+                    </div>
 
 
 
