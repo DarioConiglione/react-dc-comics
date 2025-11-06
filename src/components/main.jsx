@@ -170,6 +170,10 @@ export default function Main() {
 
             <div className='jumbo'>
 
+                <div className='bg-blue'>
+                    <p><strong>CURRENT SERIES</strong></p>
+                </div>
+
             </div>
 
 

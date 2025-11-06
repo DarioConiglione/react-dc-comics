@@ -73,3 +73,16 @@ span {
     height: 350px;
 
 }
+
+.jumbo .bg-blue {
+    position: absolute;
+    left: 130px;
+    bottom: -20px;
+
+    p {
+        margin: 0.8rem;
+    }
+
+
+
+}
